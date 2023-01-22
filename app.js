@@ -20,10 +20,10 @@ app.use(bodyParser.json());
 // });
 
 const db = mysql.createConnection({
-  host: "sql7.freesqldatabase.com",
-  user: "sql7589365",
-  password: "XkpzaYhw8A",
-  database: "sql7589365",
+  host: "sql11.freemysqlhosting.net",
+  user: "sql11592591",
+  password: "C8BKPkw627",
+  database: "sql11592591",
 });
 
 //connect to database
