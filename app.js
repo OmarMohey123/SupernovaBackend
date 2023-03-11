@@ -12,12 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// const db = mysql.createConnection({
-//   host: "db4free.net",
-//   user: "omarmohey12",
-//   password: "Mohey199",
-//   database: "mayhem",
-// });
+
 
 const db = mysql.createConnection({
   host: "sql11.freemysqlhosting.net",
